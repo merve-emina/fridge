@@ -27,12 +27,7 @@ function App() {
                   <HoverCardTrigger asChild>
                     <InfoIcon />
                   </HoverCardTrigger>
-                  <HoverCardContent>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Similique modi, a cumque amet velit nobis ipsa dolorum
-                    facere non possimus, dolorem obcaecati dicta aliquam
-                    reprehenderit. Quo autem quae eum suscipit!
-                  </HoverCardContent>
+                  <HoverCardContent>{query.data.instructions}</HoverCardContent>
                 </HoverCard>
               </CardTitle>
             </CardHeader>
