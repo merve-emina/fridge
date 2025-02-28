@@ -27,7 +27,7 @@ export function AppSidebar() {
       <SidebarHeader>
         <div className="flex items-center gap-x-2">
           <RefrigeratorIcon />
-          <span className="text-xl font-medium">Fridge</span>
+          <span className="text-xl font-medium">Kühlschrank</span>
         </div>
       </SidebarHeader>
       <SidebarSeparator />
